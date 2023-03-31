@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+td{
+    width: 50%;
+    height: 20%;
+}
+th {
+    width: 50%;
+    height: 20%;
+}
+body {
+    background-image: url("/img/portadaform.webp");
+    color: aliceblue;
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/form.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top navbar bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#">Diego Rivera</a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/index.html"
+                  >Página principal</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Video.html">Video</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/form.html">Form</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+    <main>
+      <br /><br /><br /><br /><br /><br />
+      <section class="formulario">
+        <center>
+        <fieldset style="width: 930px;" >
+            <legend>Registro Formulario</legend>
+            <table border="0" >
+                <tr>
+                    <td><label for="">Identificación *</label></td>
+                    <td><input type="text" name="nombre" id="nombre" placeholder="Obligatorio (17)Nros"> </td>
+                    <td><label for="">Fecha de Nacimiento</label></td>
+                    <td> <input type="date" name="fechanac" id="fechanac"> </td>
+                    <td rowspan="5"><fieldset class="cuadro pequeño derecha" style="width: 200px;">
+                        <legend>Tiempo Libre</legend>
+                        <input type="checkbox" name="libre" id="">Aspirante <br>
+                        <input type="checkbox" name="libre" id="">Intereses <br>
+                        <input type="checkbox" name="libre" id="">Redes Sociales <br>
+                        <input type="checkbox" name="libre" id="">Musica <br>
+                        <input type="checkbox" name="libre" id="">Video Juegos <br>
+                    </fieldset></td>
+                </tr>
+                <tr>
+                    <td><label for="">Apellidos</label></td>
+                    <td><input type="text" name="lastname" id="lastname" placeholder="Obligatorio max(20)letras"></td>
+                    <td><label for="">Edad</label></td>
+                    <td><input type="number" name="edad" id="edad" min="0" max="100"></td>
+                </tr>
+
+                    <td><label for="">Nombre</label></td>
+                    <td><input type="text" name="name" id="name" placeholder="Obligatorio max(20)letras"></td>
+                    <td><label for="">Mes de Nacimiento</label></td>
+                    <td><input type="month" name="mes" id="mes"></td>
+                </tr>
+
+                    <td><label for="">Correo</label></td>
+                    <td><input type="email" name="correo" id="correo"></td>
+                    <td><label for="">Género</label></td>
+                    <td><input type="radio" name="gener" id=""> Masculino
+                        <input type="radio" name="gener" id=""> Femenino
+                    </td>
+                </tr>
+
+                    <td><label for="">Celular</label></td>
+                    <td><input type="number" name="cel" id="cel" placeholder="### ### ## ##"></td>
+                    <td><label for="">Comuna (*Barrios*)</label></td>
+                    <td> <select id="opciones" name="opciones">
+                        <option value="opcion1">Elija una opción</option>
+                        <option value="opcion2">Opción 2</option>
+                        <option value="opcion3">Opción 3</option>
+                      </select></td>
+                </tr>
+               
+            </table>
+        </fieldset>
+    </center>
+      </section>
+      <section class="boton_y_declaracion">
+        <h3>Declaracion</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quo maxime eum natus rerum. Aut, aperiam deserunt. Qui, vel dolorem? </p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos nam laboriosam unde eveniet corrupti accusamus facere consequatur cumque obcaecati nulla!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim dolores doloribus esse voluptas minus dolorem sequi rerum labore vero molestias!
+        </p>
+        <input type="checkbox" name="Acepto" id=""> Acepto <br>
+        <input type="button" value="Enviar"> 
+       
+      </section>
+     
+      </main>
+      <footer>
+        <hr />
+        <p>Santiago Mosquera Mápura</p>
+        <p>Programa: técnica en asistente de desarrollo de software</p>
+        <p>Introducción a la progración</p>
+        <p>CESDE - 2023</p>
+      </footer>
+    </main>
+  </body>
+</html>

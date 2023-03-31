@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+    background-image: url("/img/frida.jpg");
+    color: white;
+}
+
+.imagenes {
+    width: 30%;
+    padding-left: 5%;
+}
+footer {
+    text-align: left;
+}
+.video {
+    width: 60%;
+    height: 400px;
+}
